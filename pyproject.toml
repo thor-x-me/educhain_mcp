@@ -1,0 +1,11 @@
+[project]
+name = "educhain-mcp"
+version = "0.1.0"
+description = "Educhain MCP Server made by thor-x-me"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "educhain>=0.3.10",
+    "mcp[cli]>=1.10.1",
+]
